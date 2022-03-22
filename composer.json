@@ -1,0 +1,21 @@
+{
+    "require": {
+        "irazasyed/telegram-bot-sdk": "2.0",
+        "doctrine/annotations": "^1.13",
+        "dejurin/php-google-translate-for-free": "^1.0",
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "Core\\": "core",
+            "Storage\\": "storage"
+        },
+        "classmap": [
+            "core/Command.php"
+        ],
+        "files": [
+            "config/config.php"
+        ]
+    }
+}
